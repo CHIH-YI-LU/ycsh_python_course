@@ -1,0 +1,8 @@
+a = print(float())
+b = print(float())
+c = print(float())
+d = ((b**-(4*a*c))**(1/2)))
+x1 =((-b) + d)/(2*a)
+x2 =((-b)- d)/(2*a)
+print(x1)
+print(x2)
