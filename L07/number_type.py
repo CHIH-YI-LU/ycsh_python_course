@@ -4,7 +4,17 @@
 
 x = int(input('請輸入數字:'))
 
-if x%2==0 :
-  print('是偶數')
-else:
-  print('是奇數')  
+if x % 2 ==0 :
+    if x > 0 :
+        print('正偶數')
+    elif x == 0 :
+        print('偶數')
+    else :
+        print('負偶數') 
+else :
+    if x > 0 :
+        print('正奇數')
+    elif x == 0 :
+        print('奇數')
+    else :
+        print('負奇數') 
